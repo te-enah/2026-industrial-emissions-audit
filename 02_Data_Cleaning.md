@@ -12,12 +12,11 @@ Run `=TYPE(cell)` in an adjacent row to evaluate the true under-the-hood data pa
 * `1` = True Number
 * `2` = Text String
 
-<img width="1100" height="806" alt="sheets_alignment_proof" src="https://github.com/user-attachments/assets/751a424c-9dc4-447c-8a04-59bcedeaee64" />
+  <img width="1100" height="806" alt="sheets_alignment_proof" src="https://github.com/user-attachments/assets/c1acb9d6-eed7-4e63-8abc-f3bca13bd9b3" />
 
 
+  <img width="1919" height="798" alt="helper_column_validation" src="https://github.com/user-attachments/assets/e8f156b6-e9c5-48fb-86b3-36d5345e8867" />
 ### 2. Logical Assertions (`ISNUMBER` / `ISTEXT`)
 Create a validation helper column running a conditional check to flag clear text entry anomalies:
 ```excel
 =IF(ISNUMBER(H2), "Valid Data", "ERROR: Text Format Detected")
-
-<img width="1919" height="798" alt="helper_column_validation" src="https://github.com/user-attachments/assets/e5b8c137-4f53-4726-9361-7a038c8e30b5" />
